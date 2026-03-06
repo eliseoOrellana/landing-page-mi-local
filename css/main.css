@@ -1526,10 +1526,12 @@ a.menu-toggle {
 	}
 	.process-content .image-part {
 		width: 230px;
-		bottom: -540px;
+		bottom: -460px; /* -540 ORIGINAL */
 		margin-left: -115px;
 	}
 }
+
+
 
 
 /** 
