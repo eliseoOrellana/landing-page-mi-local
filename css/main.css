@@ -1436,7 +1436,7 @@ a.menu-toggle {
 .process-content .left-side {
 	left: 0;
 }
-.process-content .image-part {
+/* .process-content .image-part {
 	margin: 0 auto;
 	height: 660px;
 	background-image: url("../images/pcaplicacion.png");
@@ -1445,6 +1445,19 @@ a.menu-toggle {
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	background-size: contain;
+} */
+
+.process-content .image-part {
+    margin: 0 auto;
+    height: 660px;
+    background-image: url("../images/pcaplicacion.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    /* Nuevo: sube la imagen en desktop */
+    transform: translateY(-80px);  /* ajusta el valor a tu gusto */
+    transition: transform 0.3s ease; /* opcional, suave */
 }
 .process-content .item[data-item]::before {
 	background: #38424e;
@@ -1502,7 +1515,7 @@ a.menu-toggle {
 	.process-content .image-part {
 		width: 300px;
 		position: absolute;
-		bottom: -630px;
+		 bottom: -450px;      /* bottom: -630px;   original*/
 		left: 50%;
 		margin-left: -150px;
 	}
