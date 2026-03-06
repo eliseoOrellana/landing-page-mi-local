@@ -2217,11 +2217,13 @@ footer ul li {
 	color: #FFFFFF;
 }
 .footer-main .footer-logo {
-	width: 162px;
-	height: 39px;
-	background: url("../images/footer-logo.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	background: url("../images/1-black-fondo-transparent.png") no-repeat center;
 	background-size: 162px 39px;
-	margin: -.6rem 0 2.1rem -.3rem;
+	border-radius: 50%; 
+	background-size: cover;
+	margin: -.6rem 0 0.3rem -.3rem;
 	display: block;
 }
 .footer-main .footer-subscribe p {
