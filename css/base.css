@@ -744,3 +744,51 @@ width:100%;
 .features {
   flex-grow: 1;
 }
+
+/* PLANES  COLORES*/
+
+.price-block.free .top-part{
+    background:#7f8c8d !important;
+}
+
+.price-block.basico .top-part{
+    background:#3498db !important;
+}
+
+.price-block.pro .top-part{
+    background:#8e44ad !important;
+}
+
+.price-block.ilimitado .top-part{
+    background:#f39c12 !important;
+}
+
+/* FREE */
+.price-block.free .button:hover{
+    background:#7f8c8d !important;
+    border-color:#7f8c8d !important;
+}
+
+/* BASICO */
+.price-block.basico .button:hover{
+    background:#3498db !important;
+    border-color:#3498db !important;
+}
+
+/* PYME */
+.price-block.primary .button:hover{
+    background:#27ae60 !important;
+    border-color:#27ae60 !important;
+}
+
+/* PRO */
+.price-block.pro .button:hover{
+    background:#8e44ad !important;
+    border-color:#8e44ad !important;
+}
+
+/* ILIMITADO */
+.price-block.ilimitado .button:hover{
+    background:#f39c12 !important;
+    border-color:#f39c12 !important;
+}
